@@ -1,0 +1,145 @@
+body {
+  background-color: white;
+}
+
+.login {
+  font-family: Roboto;
+  border-radius: 20px;
+  background-color: rgb(141, 139, 139);
+  width: 400px;
+  color: #f8f9fa;
+  padding: 100px;
+  box-shadow: 10px 10px #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+
+.login input {
+  display: block;
+  border-radius: 22px;
+  background: none;
+  margin: 5px auto;
+  text-align: center;
+  padding: 12px;
+  font-size: 15px;
+  outline: none;
+  color: white;
+}
+
+.login input[type="checkbox"] {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 12px;
+  text-align: left;
+  display: inline;
+}
+.login h1 {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+.login label {
+  color: black;
+}
+
+.login input[type="text"] {
+  border: none;
+  background-color: black;
+  width: 300px;
+}
+
+.login input[type="password"] {
+  border: none;
+  background-color: black;
+  width: 300px;
+}
+
+input[type="button"] {
+  background-color: black;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  width: 280px;
+  transition: 0.5s;
+}
+.login input[type="submit"]:hover {
+  background-color: green;
+  transition: 0.5s;
+}
+
+.Box1 {
+  padding-bottom: 3vh;
+  display: flex;
+  align-items: center;
+}
+
+.Box1-box1,
+.Box1-box2 {
+  display: block;
+  flex: 1;
+  height: 0.25vh;
+  width: 100%;
+  background-color: #dbdbdb;
+}
+
+.container {
+  margin: 0 -0.325vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.facebook,
+.google,
+.apple {
+  flex: 1;
+  margin: 0.325vw 0.325vh;
+  color: #fff;
+  padding-right: 0.6875vw;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  padding: 0 2px;
+  border-radius: 3%;
+  width: 100%;
+  height: 5.25vh;
+  font-size: 0.875vw;
+  box-shadow: 0 0.25vw 0.25vh rgb(0 0 0 / 9%);
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.facebook2 {
+  flex: 1;
+  align-items: center;
+  display: block;
+  color: #000;
+}
+
+.google2 {
+  flex: 1;
+  align-items: center;
+  display: block;
+  color: #000;
+}
+
+.apple2 {
+  flex: 1;
+  align-items: center;
+  display: block;
+  color: #000;
+}
+
+.signup {
+  margin-left: 110px;
+  margin-bottom: 10px;
+}

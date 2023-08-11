@@ -1,0 +1,397 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700&display=swap);
+body{
+    margin: 0px;
+}
+form {
+    margin: 0;
+    margin-top: 3rem;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cart-title {
+    width: 1000px;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.gamecoins-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.gamecoins-title{
+    width: 1000px;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.gamecoin-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.gamecoin-title-container{
+    width:866px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#gameCoin {
+    width: 2fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#gameCoinQty {
+    width: 1fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gameCoin-subtotal-container {
+    margin-top: 7px;
+}
+
+#gameCoinSub1 {
+    width: 100px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#gameCoinSub2 {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#gameCoinSubtotal {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bold;
+    margin-left: 33px;
+
+}
+
+.videogame-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.videogame-title {
+    width: 1000px;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.game-title-container {
+    width: 866px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#game {
+    width: 2fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#gameQty {
+    width: 1fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.game-subtotal-container {
+    margin-top: 7px;
+}
+
+#gameSub1 {
+    width: 100px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tax-container {
+    display: flex;
+    justify-content: center;
+}
+
+.tax-title-container {
+    width: 1000px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#gameSub2 {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.shipping-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-title-container {
+    display: flex;
+    width: 1000px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.shipping-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.shipping-option-container{
+    margin-left: 05px;
+    margin-right: 400px;
+}
+
+#gameSub3 {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.subtotal-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.subtotal-title-container {
+    width: 1000px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+#gameSubtotal {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.giftcards-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.giftcards-title {
+    width: 1000px;
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.giftcard-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.giftcard-title-container {
+    width: 866px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#giftcard {
+    width: 2fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#giftcardQty {
+    width: 1fr;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.giftcard-subtotal-container {
+    margin-top: 7px;
+}
+
+#giftcardSub1 {
+    width: 100px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+#giftcardSub2 {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#giftcardSub3 {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#giftcardSubtotal {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.total-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.total-title-container {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#text{
+    vertical-align: baseline;
+}
+
+#total {
+    width: 500px;
+    padding: 20px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: -10px;
+    vertical-align: top;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.checkout-btn {
+    width: 1000px;
+    padding: 20px;
+    background-color: rgb(69, 99, 249);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.checkout-btn:hover {
+    cursor: pointer;
+}
+
+.checkout-btn:active {
+    opacity: 0.8;
+}

@@ -1,0 +1,332 @@
+.form_container,
+.form_container:before,
+.form_container:after {
+  padding: 0;
+  margin: 75px;
+  box-sizing: border-box;
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media (max-width:960px) {
+  .form_container {
+    width: 50%;
+  }
+}
+
+form {
+  width: 450px;
+  background-color: rgb(27, 42, 82);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 2px 0 rgb(48 48 48 / 30%), 0 1px 3px 1px rgb(48 48 48 / 15%);
+  padding: 50px 35px;
+  margin: 10px;
+}
+
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form_container input[type="text"]:hover {
+  border: 1px solid white;
+  background-color: rgb(55, 55, 55);
+
+}
+
+.form_container input[type="password"]:hover {
+  border: 1px solid white;
+  background-color: rgb(55, 55, 55);
+}
+
+/* block line */
+.Box1 {
+  padding-bottom: 3vh;
+  display: flex;
+  align-items: center;
+}
+
+.Box1-box1,
+.Box1-box2 {
+  display: block;
+  flex: 1;
+  height: 0.25vh;
+  width: 100%;
+  background-color: white;
+}
+
+.Box1-font {
+  padding: 0 5px;
+}
+
+/* block line */
+
+.container {
+  margin: 0 -0.325vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.facebook,
+.google,
+.apple {
+  flex: 1;
+  margin: 0.325vw 0.325vh;
+  color: #fff;
+  box-sizing: border-box;
+  outline: none;
+  border: 0;
+  padding: 0 15px 0 10px;
+  border-radius: 3%;
+  width: 100%;
+  height: 5.25vh;
+  font-size: 0.875vw;
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 241, 241);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.facebook2 {
+  flex: 1;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+  display: block;
+  color: #000;
+}
+
+.google2 {
+  flex: 1;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+  display: block;
+  color: #000;
+}
+
+.apple2 {
+  flex: 1;
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+  display: block;
+  color: #000;
+}
+
+.facebook:hover,
+.google:hover,
+.apple:hover {
+  background-color: white;
+}
+
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+::placeholder {
+  color: #e5e5e5;
+}
+
+.login_btn {
+  width: 100%;
+}
+
+.login_btn:hover {
+  background-color: rgb(85, 89, 85);
+}
+
+.login_btn {
+  margin: auto;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  cursor: pointer;
+  height: 50px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300px;
+  color: black;
+  margin: auto;
+  display: block;
+}
+
+.form_container .form_background input[type="checkbox"] {
+  padding: 0px;
+  margin: 0px;
+  margin-right: 12px;
+  text-align: left;
+  display: inline;
+  background-color: red;
+}
+
+.toggle {
+  --uiToggleSize: var(--toggleSize, 1.25rem);
+  --uiToggleBorderWidth: var(--toggleBorderWidth, 2px);
+  --uiToggleColor: var(--toggleColor, #222);
+
+  display: var(--toggleDisplay, inline-flex);
+  position: relative;
+}
+
+.toggle__input {
+  width: var(--uiToggleSize);
+  height: var(--uiToggleSize);
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.toggle__label {
+  display: inline-flex;
+  min-height: var(--uiToggleSize);
+  padding-left: calc(var(--uiToggleSize) + var(--toggleIndent, 0.4em));
+}
+
+.toggle__input:not(:disabled)~.toggle__label {
+  cursor: pointer;
+}
+
+.toggle__label::after {
+  content: "";
+  box-sizing: border-box;
+  width: 1em;
+  height: 1em;
+  font-size: var(--uiToggleSize);
+  /* 1 */
+
+  background-color: transparent;
+  border: var(--uiToggleBorderWidth) solid var(--uiToggleColor);
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.toggle__input:checked~.toggle__label::after {
+  background-color: var(--uiToggleColor);
+}
+
+.toggle__text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.toggle__label::before {
+  content: "";
+  width: 0;
+  height: 0;
+  font-size: var(--uiToggleSize);
+  /* 1 */
+
+  border-left-width: 0;
+  border-bottom-width: 0;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: var(--toggleArrowColor, #fff);
+
+  position: absolute;
+  top: 0.5428em;
+  left: 0.25em;
+  z-index: 3;
+
+  transform-origin: left top;
+  transform: rotate(-40deg) skew(10deg);
+}
+
+.toggle__input:checked~.toggle__label::before {
+  --uiToggleArrowWidth: var(--toggleArrowWidth, 2px);
+
+  width: 0.4em;
+  height: 0.2em;
+  border-left-width: var(--uiToggleArrowWidth);
+  border-bottom-width: var(--uiToggleArrowWidth);
+}
+
+.toggle:focus-within {
+  outline: var(--toggleOutlineWidthFocus, 3px) solid var(--toggleOutlineColorFocus, currentColor);
+  outline-offset: var(--toggleOutlineOffsetFocus, 5px);
+}
+
+.toggle__input:disabled~.toggle__label {
+  opacity: var(--toggleOpacityDisabled, 0.24);
+  cursor: var(--toggleCursorDisabled, not-allowed);
+  user-select: none;
+}
+
+.toggle__label::after {
+  border-radius: var(--toggleBorderRadius, 2px);
+}
+
+.toggle__input:not(:disabled)~.toggle__label::before {
+  will-change: width, height;
+  opacity: 0;
+}
+
+.toggle__input:not(:disabled):checked~.toggle__label::before {
+  opacity: 1;
+  transition: opacity 0.1s ease-out 0.15s, width 0.1s ease-out 0.3s,
+    height 0.1s ease-out 0.2s;
+}
+
+.toggle__input:not(:disabled)~.toggle__label::after {
+  will-change: background-color;
+  transition: background-color 0.15s ease-out;
+}
+
+.page__name {
+  width: 100%;
+}
+
+.page__name::first-letter {
+  text-transform: uppercase;
+}
+
+.page__toggle {
+  /* margin-top: -1.25rem; */
+  margin-right: 1.5rem;
+  font-size: var(--pageToggleTextFontSize);
+}
+
+.signup_button {
+  margin-top: 15px;
+}

@@ -1,0 +1,560 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body {
+    margin: 0;
+}
+
+form {
+    margin-top: 3rem;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-title-container {
+    width: 1000px;
+    font-size: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    padding: 5px;
+}
+
+.address-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.address-title-container {
+    width: 1024px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.shipping-address-name-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shipping-address-name {
+    width: 1024px;
+    padding: 10px;
+}
+
+#sname {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sname:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.shipping-address-add-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-address-add {
+    width: 1024px;
+    padding: 10px;
+}
+
+#saddress {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#saddress:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.three-shipping-address-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-address-city-state-postcode-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+#scity {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#scity:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+#sstate {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sstate:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+#spostcode {
+    width: 126px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#spostcode:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.shipping-address-region-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-address-region {
+    width: 1024px;
+    padding: 10px;
+}
+
+#sregion {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sregion:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.shipping-billing-address-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shipping-billing-address {
+    width: 1024px;
+    padding: 10px;
+}
+
+#billing-checkbox {
+    margin-left: 20px;
+}
+
+.billing-address-name-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.billing-address-name {
+    width: 1024px;
+    padding: 10px;
+}
+
+#bname {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bname:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.billing-address-add-container {
+    display: flex;
+    justify-content: center;
+}
+
+.billing-address-add {
+    width: 1024px;
+    padding: 10px;
+}
+
+#baddress {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#baddress:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.three-billing-address-info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.billing-address-city-state-postcode-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+#bcity {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bcity:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+#bstate {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bstate:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+#bpostcode {
+    width: 126px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bpostcode:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.billing-address-region-container {
+    display: flex;
+    justify-content: center;
+}
+
+.billing-address-region {
+    width: 1024px;
+    padding: 10px;
+}
+
+#bregion {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#bregion:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contact-info-title-container {
+    width: 1024px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contact-info-email-container {
+    display: flex;
+    justify-content: center;
+}
+
+.email-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+#email {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.contact-info-phonenumber-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.phonenumber-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+#phonenumber {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#phonenumber:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.payment-title-container {
+    width: 1024px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card-btn-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+.card-btn {
+    width: 634px;
+    padding: 30px;
+    background: transparent;
+    border: 2px solid rgb(69, 99, 249);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-btn:hover {
+    cursor: pointer;
+}
+
+.card-btn:focus {
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.card-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card-info {
+    width: 1024px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-num-container {
+    width: 1024px;
+    padding: 10px;
+}
+
+#cardnumber {
+    width: 600px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cardnumber:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+.expiration-cvv-input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.expiration-cvv-num-container {
+    width: 1024px;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+#expirationnumber {
+    width: 400px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#expirationnumber:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+#cvvnumber {
+    width: 163px;
+    padding: 15px;
+    background: transparent;
+    border: 2px solid rgb(225, 225, 225);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cvvnumber:focus {
+    border: 2px solid rgb(69, 99, 249);
+    outline: 3px solid rgb(69, 99, 249);
+}
+
+
+.payment-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.payment-btn-container {
+    width: 1024px;
+    padding-top: 80px;
+    border-top: 1px solid rgb(225, 225, 225);
+}
+
+.payment-btn {
+    width: 634px;
+    padding: 20px;
+    background-color: rgb(69, 99, 249);
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+
+}
+
+.payment-btn:hover {
+    cursor: pointer;
+}
+
+.payment-btn:active {
+    opacity: 0.8;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact-title-container {
+    width: 1024px;
+    font-size: 20px;
+    padding: 20px;
+    border-top: 1px solid rgb(225, 225, 225);
+    border-bottom: 1px solid rgb(225, 225, 225);
+}
+
+.chatus-contact {
+    color: rgb(69, 99, 249);
+}
+
+.chatus-contact:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

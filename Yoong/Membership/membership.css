@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css2?family=Google+Sans+Text:wght@400;500;700&display=swap);
+
+html {
+    scroll-behavior: smooth;
+}
+
+.membershippage {
+    font-family: 'Google Sans Text', Verdana, sans-serif;
+}
+
+.join {
+    background-color: #c6daeaa6;
+    display: flex;
+    background-image: url(membershipcard.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: contain;
+    height: 90vh;
+
+}
+
+.caption {
+    padding: 3.2rem 2.4rem;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18vh;
+
+}
+
+.membershiptitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.6rem;
+    animation: slidein 1s;
+
+}
+
+p.details {
+    font-size: 1.5rem;
+    font-family: inherit;
+    animation: slidein 1s;
+}
+
+.joinbutton {
+    display: block;
+    background-color: rgb(52, 133, 209);
+    border-radius: 50px;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 7px 16px;
+    text-align: center;
+    transition: all .2s ease;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #ffffFF;
+    border-width: 1px;
+    width: 10rem;
+    animation: slidein 1s, popping .7s infinite 1s;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes popping {
+    from {
+        scale: 0.95;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+.getstart,
+.getstart1 {
+    text-align: center;
+}
+
+.getstart {
+    font-size: larger;
+    padding-top: 5rem;
+}
+
+.stepsbox {
+    display: flex;
+    flex-flow: row wrap;
+    order: 3;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.number {
+    box-shadow: 0 1px 2px 0 rgba(48, 48, 48, .30), 0 1px 3px 1px rgba(48, 48, 48, .15);
+    border: thin solid #a9acaa;
+    border-radius: .5rem;
+    width: 15px;
+    flex-basis: 15px;
+    padding: 30px 10px;
+    height: 30rem;
+    flex-grow: 1;
+    text-align: center;
+    margin: 2rem;
+    box-sizing: content-box;
+    padding: 30px;
+}
+
+.more {
+    display: block;
+    margin-top: 2rem;
+    margin-left: 2px;
+    font-size: 15px;
+    height: 20px;
+    text-decoration: none;
+    animation: slidein 1s;
+}
+
+.more svg {
+    vertical-align: middle;
+}
+
+.numbox {
+    border: 2px solid rgb(52, 133, 209);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(69, 107, 143);
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    animation: popping 1s infinite;
+}
+
+.number:hover {
+    transform: translateY(-8px);
+    
+}

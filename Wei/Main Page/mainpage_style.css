@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Sk;
+    src: url(Sk-Modernist-Regular.otf);
+  }
+
+
+/* Outline Borders */
+.outer_container, .inner_container_scroller, .individual_container_slots{
+    outline: 1px black;
+    outline-style: solid;
+    font-family: 'Bebas Neue', Verdana, sans-serif;
+}
+
+h1{
+    margin-left: 25px;
+    font-size: 50pt;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    
+}
+
+.inner_container_scroller{
+    box-sizing: border-box;
+    display: grid;
+    padding: 1rem 1rem 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 18%;
+    min-width: 1024px;
+    min-height: 500px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+}
+
+
+
+.individual_container_slots{
+    padding: 0 0 0 0;
+    min-width: 200px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.game_img{
+    width: 240px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: min-content;
+    padding: 4px 4px 4px 4px;
+    object-fit: fill;
+}
+
+.gift_cards{
+    width: 210px;
+    width: 240px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: min-content;
+    padding: 4px 4px 4px 4px;
+    object-fit: contain;
+}
+a:link{
+    text-decoration: none;
+}
+
+/* Text Formatting */
+.game_txt, .price_txt{
+    text-align: center;
+    margin: 10% 0 10% 0;
+    font-size: 25pt;
+    display: block;
+    color: #4A4A4A;
+    font-weight: bold;
+}
+
+.topup_txt, .topup_txt2{
+    font-size: 15pt;
+    text-align: center;
+    display: block;
+    color: #4A4A4A;
+    font-weight: 800;
+}
+
+.video{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.topup_txt2{
+    font-size: 13pt;
+    text-align: center;
+}
+
+
+a:hover .game_txt{
+    display: none;
+}
+
+.price_txt, .topup_txt, .topup_txt2{
+    display: none;
+}
+
+a:hover .price_txt, a:hover .topup_txt, a:hover .topup_txt2{
+    display: inline;
+}
+
+.viewall_button:hover{
+    text-decoration: 2.5px underline ;
+}
+
+/* Scroller Snapping */
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem;
+    scroll-padding-inline-end: 1rem;
+}
+
+.snaps-inline > *{
+    scroll-snap-align: start;
+}
+
+/* View All Text Configuration */
+.viewall_txt{
+    text-decoration: none;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+}
+.viewall_button{
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    color: #4A4A4A;
+}
+
+.viewall_container{
+    padding: 200px 0;
+    text-align: center;
+}
+
+/* Will run if the screen width is less than 1030px */
+@media only screen and (max-width: 1030px) {
+    .inner_container_scroller{
+        box-sizing: border-box;
+        display: grid;
+        padding: 1rem 1rem 1rem 1rem;
+        grid-auto-flow: column;
+        grid-auto-columns: 28%;
+        min-width: auto;
+        min-height: 500px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+   
+    }
+
+    .video{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 200px;
+    }
+
+    video{
+        width: 700px;
+    }
+  }
+
+  @media only screen and (min-width: 2000px) {
+    .inner_container_scroller{
+        box-sizing: border-box;
+        display: grid;
+        padding: 1rem 1rem 1rem 1rem;
+        grid-auto-flow: column;
+        grid-auto-columns: 15%;
+        min-width: auto;
+        min-height: 500px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+   
+    }
+
+    .video{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+  }
+
+
