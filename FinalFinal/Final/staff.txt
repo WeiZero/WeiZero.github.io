@@ -1,0 +1,7 @@
+ST001|Johnny|M|18|Administrator|28/1/2003|abcd|Active|1|Red|
+ST002|Jodsfvd dn|F|18|Superviser|3/1/1999|abcd|Active|2|Tom|
+ST003|Eberha|M|18|Analyst|21/6/2021|abcd|Inactive|1|Blue|
+ST004|Mre|F|18|Specialist|19/2/2021|VkpUaW|Active|3|Ironman|
+ST005|Levin|M|18|Manager|14/2/2021|tHDeytb|Active|1|Yellow|
+ST006|Adiana|F|17|Account|17/12/2022|nUrhKg|Inactive|3|Suzume|
+ST007|Zek|M|18|Acchfhf|26/7/2020|fYtLyg|Active|2|Jerry|
