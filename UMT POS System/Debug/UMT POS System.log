@@ -1,0 +1,17 @@
+﻿  UMT POS System.c
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(171,49): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(185,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(199,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(212,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(226,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(239,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(252,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(265,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(278,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(292,54): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(318,37): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(327,42): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(420,36): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(429,41): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\UMT POS System.c(456,44): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  UMT POS System.vcxproj -> C:\Users\Wei Lim\Documents\GitHub\programming-y1s1-assignment\UMT POS System\Debug\UMT POS System.exe
